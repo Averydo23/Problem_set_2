@@ -21,7 +21,7 @@ This project applies NLP techniques to real-world customer reviews scraped from 
 
 | | |
 |---|---|
-| **Source** | Trustpilot (scraped via custom Python scraper) |
+| **Source** | Trustpilot (scraped through custom Python scraper) |
 | **Period** | January 2024 – March 2026 |
 | **Total reviews** | 2,333 reviews |
 | **Brands** | ASOS, Boohoo, H&M, InTheStyle, Missguided, NastyGal, NewLook, Next, PrettyLittleThing, RiverIsland, SHEIN, Zara |
