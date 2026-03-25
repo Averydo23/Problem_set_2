@@ -10,7 +10,7 @@
 
 ## Overview
 
-This project applies NLP techniques to real-world customer reviews scraped from Trustpilot across 12 UK fashion brands. The goal is to classify customer sentiment and identify complaint themes per brand, producing actionable business recommendations through competitor analysis.
+This project applies text classification techniques to real-world customer reviews scraped from Trustpilot across 12 UK fashion brands. The goal is to classify customer sentiment and identify complaint themes each brand, producing actionable business recommendations through customer analysis.
 
 **Research Question:**  
 *How can automated sentiment analysis of customer reviews help UK fashion brands identify service gaps and enhance their competitive strategy?*
@@ -45,13 +45,13 @@ This project applies NLP techniques to real-world customer reviews scraped from 
 | DistilBERT (final) | 0.94 | 0.62 | 0.96 | 0.89 |
 
 **Why DistilBERT as final model?**  
-Despite lower Macro F1, DistilBERT captures contextual meaning — understanding sarcasm, negation, and implicit sentiment that TF-IDF misses. This produces cleaner Negative classifications as input for BERTopic competitor analysis, resulting in more reliable per-brand recommendations.
+Despite lower Macro F1, DistilBERT captures contextual meaning, understanding sarcasm, negation, and implicit sentiment that TF-IDF misses. This produces cleaner Negative classifications as input for BERTopic competitor analysis, resulting in more reliable per-brand recommendations.
 
 ---
 
 ## BERTopic Complaint Themes
 
-BERTopic was applied to all 1,794 Negative reviews, identifying 50 topics merged into 6 macro-themes:
+BERTopic was applied to all 1,794 Negative reviews, identifying 50 topics merged into 5 macro-themes:
 
 | Macro Topic | Description | Reviews |
 |---|---|---|
@@ -67,10 +67,10 @@ BERTopic was applied to all 1,794 Negative reviews, identifying 50 topics merged
 ## Key Findings
 
 - **Refund & Customer Service** is the dominant complaint across all brands (524 reviews)
-- **Zara** has the highest refund concentration — 85 reviews in a single topic
+- **Zara** has the highest refund concentration (85 reviews in a single topic)
 - **RiverIsland** has the worst Customer Service score (67 classified complaints)
-- **Missguided** shows the highest Return Costs & Boycott signal — worsened post-SHEIN acquisition
-- **Next** is the best performer — only 10 classified complaint reviews, no dominant theme
+- **Missguided** shows the highest Return Costs & Boycott signal, which is worsened after SHEIN acquisition
+- **Next** is the best performer with only 10 classified complaint reviews, no dominant theme
 
 ---
 
