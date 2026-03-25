@@ -51,7 +51,7 @@ Despite lower Macro F1, DistilBERT captures contextual meaning, understanding sa
 
 ## BERTopic Complaint Themes
 
-BERTopic was applied to all 1,794 Negative reviews, identifying 50 topics merged into 5 macro-themes:
+BERTopic was applied to all 1,794 Negative reviews, identifying 50 topics merged into 6 macro topics:
 
 | Macro Topic | Description | Reviews |
 |---|---|---|
