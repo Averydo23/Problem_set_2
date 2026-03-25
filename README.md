@@ -106,13 +106,3 @@ python scraper.py
 pip install transformers datasets sentence-transformers bertopic \
             pandas scikit-learn matplotlib seaborn
 ```
-
----
-
-## References
-
-- Chevalier, J. A., & Mayzlin, D. (2006). *The effect of word of mouth on sales.* Journal of Marketing Research, 43(3), 345–354.
-- Grootendorst, M. (2022). *BERTopic: Neural topic modeling with a class-based TF-IDF procedure.* arXiv:2203.05794.
-- Hu, M., & Liu, B. (2004). *Mining and summarizing customer reviews.* KDD '04, 168–177.
-- Pang, B., & Lee, L. (2008). *Opinion mining and sentiment analysis.* Foundations and Trends in IR, 2(1–2), 1–135.
-- Sanh, V., et al. (2019). *DistilBERT, a distilled version of BERT.* arXiv:1910.01108.
